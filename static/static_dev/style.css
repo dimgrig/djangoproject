@@ -1,0 +1,187 @@
+html, body
+{
+  width: 100%;
+  height: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-top{
+	min-height: 20px;
+	background-color:green;
+	border:none;
+	border-radius: 0;
+}
+
+.product-item{
+	background-color: grey;
+	position: relative;
+}
+
+.basket{
+
+}
+.basket-container{
+
+}
+.basket-items{
+	width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coming_soon {
+	background:url('images/background.jpg') 0 0 no-repeat;
+	overflow-x:hidden;
+    background-size: cover;
+	font-family:'Roboto',Open Sans;
+	width: 100%;
+  	height: 100%;
+}
+
+.title h1 {
+	font-size:40px;
+	margin-top:30px;
+	color:#fff;
+	text-align:center;
+	font-family:Roboto;
+}
+
+.title {
+    text-align: center;
+}
+
+.coming_soon p {
+	font-family:Roboto;
+	color:#fff;
+}
+
+
+#countdown_dashboard {
+	margin-top:60px;
+	text-align: center;
+	/*width: 545px;
+	height: 115px;
+	margin: 60px auto;*/
+}
+
+.countDown .days_dash .digit {
+	color: #ff0000;
+}
+
+.countDown .hours_dash .digit {
+	color: #FF0000;
+}
+
+.countDown .minutes_dash .digit {
+	color: #FF0000;
+}
+
+.countDown .seconds_dash .digit {
+	color: #FF0000;
+}
+
+.dash {
+	height: 114px;
+	background: transparent url('images/dash.png') 0 0 no-repeat;
+	float: left;
+	margin-left: 21px;
+	position: relative;
+}
+
+.dash .digit {
+	font-size: 55pt;
+	font-weight: bold;
+	float: left;
+	width: 55px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	font-size:12px;
+	font-weight:500;
+	color: #fff;
+	margin-left:10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family:Roboto;
+}
+
+.subscribe h2 {
+	font-size:30px;
+	margin-top:30px;
+	color:#fff;
+	text-align:center;
+	font-family:Roboto;
+}
+
+.subscribe {
+	margin-top: 60px;
+}
+
+.subscribe {
+	position: relative;
+}
+
+.form_field {
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+	border-top: 0px solid #fff;
+	border-bottom: 0px solid #fff;
+	font-size: 18px;
+	padding: 10px 14px;
+	margin: 0 25px;
+	/*width: 200px;*/
+	border-radius:7px;
+	background:#f9f9f9;
+	font-family:Roboto;
+}
+
+.subscribe_button {
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+	border-top: 0px solid #fff;
+	border-bottom: 0px solid #fff;
+	font-size: 18px;
+	color: #FFF;
+	padding: 10px 14px;
+	background:#FF0000;
+	border-radius:7px;
+	margin-left:10px;
+	font-family:Roboto;
+}
